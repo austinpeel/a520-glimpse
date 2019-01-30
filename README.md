@@ -4,4 +4,4 @@
 
 Mass maps reconstructed with the [Glimpse](https://github.com/CosmoStat/Glimpse) sparsity-based mass mapping software on ground-based (left) and space-based (right) telescope data.
 
-<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/source_density.png" alt="source_density" width="800"/>
+<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_source_density.png" alt="source_density" width="800"/>
