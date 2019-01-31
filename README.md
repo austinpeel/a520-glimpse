@@ -19,11 +19,13 @@ $ glimpse config_A520_c12.ini A520_cat_c12.fits kappa.fits
 
 ## Figures
 <p align="center">
-<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_glimpse_maps.png" alt="glimpse_maps" width="750"/>
+<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_glimpse_maps.png" alt="glimpse_maps" width="700"/>
 </p>
 
 Mass maps reconstructed with [Glimpse](https://github.com/CosmoStat/Glimpse) on C12 (left) and J14 (right) telescope data. The projected matter distributions (dark + luminous) are in color and overlaid on the science image.
 
-<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_source_density.png" alt="source_density" width="800"/>
+<p align="center">
+<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_source_density.png" alt="source_density" width="750"/>
+</p>
 
 Source galaxy density maps from C12 (left) and J14 (right) data sets. The C12 galaxy ellipticity catalog was derived from a combination of Magellan and HST/ACS images with galaxy number densities of 22 and 56 per square arcmin, respectively. The J14 catalog comes from the same ACS data as C12 but has a higher galaxy number density of 109 per square arcmin due to a different reduction pipeline.
