@@ -1,16 +1,20 @@
 # a520-glimpse
 
-This repository contains the data and code to reproduce the results in [Sparse Reconstruction of the Merging A520 Cluster System](https://iopscience.iop.org/article/10.3847/1538-4357/aa850d/meta) (2017). It relies on the multi-scale sparsity-based mass mapping software called [Glimpse](https://github.com/CosmoStat/Glimpse). We have reconstructed the mass distribution of Abell 520, a merging galaxy cluster system also known as the 'cosmic train wreck'.  We obtained high-resolution mass maps using two separate galaxy catalogs derived from HST observations and compared the results to previous weak-lensing studies of the system.
+This repository contains the data and code to reproduce the results in [Sparse Reconstruction of the Merging A520 Cluster System](https://iopscience.iop.org/article/10.3847/1538-4357/aa850d/meta) (Peel et al. 2017). It relies on the multi-scale sparsity-based mass mapping software called [Glimpse](https://github.com/CosmoStat/Glimpse). We have reconstructed the mass distribution of Abell 520, a merging galaxy cluster system also known as the 'cosmic train wreck'.  We obtained high-resolution mass maps using two separate galaxy catalogs derived from HST observations and compared the results to previous weak-lensing studies of the system.
 
 ## Data
 
-Galaxy shear catalogues obtained from two different telescope surveys are available. The first is from [Clowe et al. 2012, ApJ 758, 128 ](https://iopscience.iop.org/article/10.1088/0004-637X/758/2/128/meta) (C12), and the second is from [Jee et al. 2014, ApJ 783, 78](https://iopscience.iop.org/article/10.1088/0004-637X/783/2/78/meta) (J14).
+Galaxy shear catalogues for A520 from two different telescope surveys are available. The first is from [Clowe et al. 2012, ApJ 758, 128 ](https://iopscience.iop.org/article/10.1088/0004-637X/758/2/128/meta) (C12), and the second is from [Jee et al. 2014, ApJ 783, 78](https://iopscience.iop.org/article/10.1088/0004-637X/783/2/78/meta) (J14).
+
+## Requirements
+
+The [Glimpse](https://github.com/CosmoStat/Glimpse) software is required to reproduce our mass maps. Details of the algorithm and tests on simulated data can be found in [High resolution weak lensing mass mapping combining shear and flexion](https://www.aanda.org/articles/aa/abs/2016/07/aa28278-16/aa28278-16.html) (Lanusse et al. 2016).
 
 ## Usage
 
 ```shell
-cd data
-glimpse config_A520_c12.ini A520_cat_c12.fits kappa.fits
+$ cd data
+$ glimpse config_A520_c12.ini A520_cat_c12.fits kappa.fits
 ```
 
 ## Figures
