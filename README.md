@@ -18,7 +18,9 @@ $ glimpse config_A520_c12.ini A520_cat_c12.fits kappa.fits
 ```
 
 ## Figures
-<div style="text-align:center"><img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_glimpse_maps.png" alt="glimpse_maps" width="750"/></div>
+<p align="center">
+<img src="https://github.com/austinpeel/a520-glimpse/blob/master/figures/a520_glimpse_maps.png" alt="glimpse_maps" width="750"/>
+</p>
 
 Mass maps reconstructed with [Glimpse](https://github.com/CosmoStat/Glimpse) on C12 (left) and J14 (right) telescope data. The projected matter distributions (dark + luminous) are in color and overlaid on the science image.
 
